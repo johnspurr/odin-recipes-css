@@ -1,0 +1,50 @@
+/* Basic CSS reset courtesy of DigitalOcean 
+   https://www.digitalocean.com/community/tutorials/css-minimal-css-reset
+*/
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    background-color: #eee;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+/* ul > li + li {
+    margin-top: 0.5ex;
+} */
+
+ol > li + li {
+    margin-top: 1em;
+}
+
+h1, h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+  
